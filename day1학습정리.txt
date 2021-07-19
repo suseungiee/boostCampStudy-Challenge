@@ -1,0 +1,60 @@
+intellij : 챌린지기간동안 사용할 IDE / ios, Aos 둘다 개발가능하다고 함
+
+coding convention : 개발자들간 소통 위함. 일종의 규약
+pascal case : camel case + 맨 앞 단어도 대문자로 ex) MakeChocoCake
+camel case : 맨 앞 단어만 소문자고 나머지 단어시작마다 대문자 ex)makeChocoCake
+class 이름 : 주로 명사 + _들어가면 x ex) ChocoCake(o), Make_History(x)
+method이름 : 주로 동사 ex) read Books
+horizontal whitespace : 가독성위해 공백 양 옆 일정하게 띄우는 것 (주로 ":"앞뒤로)
+
+git이란 : 여러명이서 공동작업하기 위한 버전 관리 시스템
+
+git 필수명령어 (git bash에서 사용)
+git init -> 현재 해당폴더를 git으로 관리하겠다
+git add 파일이름 -> 해당 파일 추적(?)을 시작하겠다
+git add . -> 현재 폴더의 모든파일 추적 시작
+git commit -m "메모" ->추적한 파일들을 로컬에 반영하였다 ->메모이름으로 저장
+git commit -a -m "메모" -> git add, commit 동시에 근데 뭔가 잘 안됨
+git push origin master -> 내 저장소에 반영
+git push -> 원격 저장소에 반영하기
+git status -> 현재 추적목록 확인하기
+git log --oneline -> commit목록 한줄로 확인하기
+
+git branch -> 현재 branch목록보기
+git branch 이름 -> 해당 이름으로 branch만들기
+git branch -d 이름 -> 해당 이름 branch 삭제
+git checkout 이름 -> 해당 이름 branch로 변경
+git checkout -b 이름 -> 해당 이름 branch생성 후 생성된 branch로 checkout
+* branch옮겨 갈 떄마다 각 branch의 최종내용으로 변경된다.
+즉 작업상황이 branch별로 다르게 저장된다
+git merge 이름 : 현재 branch에 이름branch의 내용 merge
+
+git clone url : 해당 url내용을 local로 복사해온다
+fork랑 clone차이 
+- clone은 local로 복사하는 /  fork는 내 github repository로 복사
+fork -> clone이후 작업하고 commit, push하면 내 repository에 push된다
+이후 pull request눌러서 원본 repository로 push요청한다
+
+
+실습 링크
+https://www.hanl.tech/blog/git-%ea%b8%b0%eb%b3%b8-%ec%a0%95%eb%b3%b5-%ec%8b%a4%ec%a0%84-%ec%97%b0%ec%8a%b5-1%ed%8e%b8-2%ed%8e%b8-%ea%b0%9c%eb%b4%89/
+=====================================================
+
+변수 타입으로 generics타입을 받다보니 Collections내장함수인 sort쓰는데 에러발생
+함수 별로 <T : Comparable<T>> 를 써주니깐 됐다
+그냥 <T>인줄 알았는데
+코틀린 문법처럼 a : Int이런식인것처럼 T(제네릭) : Comparable<T> 
+(제네릭 타입은 Comparable<T>이다~ 뭐 이런 느낌같다)
+
+fun <T: Comparable<T>> sort(list: MutableList<T>){
+    list.sorted()
+}
+이것도 쓰고싶었는데 어떻게쓰는건지 잘 모르겠다..
+
+======================================================
+
+gist란 git은 clone, push, pull하는 작업이라면 코드리뷰, 메모남기기 등으로 
+사용되는 것같다.
+
+create secret gist : 검색엔진에는 안보이나 url을 통해 누구나 접근가능 -> 피어세션
+
