@@ -17,6 +17,9 @@ git commit -m "메모" ->추적한 파일들을 로컬에 반영하였다 ->메�
 git commit -a -m "메모" -> git add, commit 동시에 근데 뭔가 잘 안됨
 git push origin master -> 내 저장소에 반영
 git push -> 원격 저장소에 반영하기
+git remote add origin https://github.com/lee-seung-su/boostCampStudy.git -> 
+해당주소 remote origin으로 등록하기 -> 이후 git push가능
+git remote rm origin -> origin 삭제
 git status -> 현재 추적목록 확인하기
 git log --oneline -> commit목록 한줄로 확인하기
 
