@@ -144,7 +144,7 @@ day1.jar파일이 생긴것을 볼 수 있다
 
 ![Day2%206e268f96d64b457fba71fced1ad5cbfa/Untitled%207.png](Day2%206e268f96d64b457fba71fced1ad5cbfa/Untitled%207.png)
 
-다음과 같이 day1.kt파일은 Virtual Box의 리눅스에서 실행시킨 것을 볼 수 있다.
+다음과 같이 day1.kt파일은 Virtual Box의 리눅스에서 실행시킨 것을 볼 수 있다..
 
 kotlinc컴파일러 이용해서 day1.jar라는 자바 바이트코드 모음으로 컴파일 한 뒤, java를 이용하여 JVM에 설치된 javac로 컴파일하는 순서
 
