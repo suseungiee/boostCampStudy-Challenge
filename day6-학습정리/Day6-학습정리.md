@@ -14,7 +14,7 @@ ex)문자열 리소스, 레이아웃 리소스, 색상, 치수 ...
 
 안드로이드에서 화면의 뷰는 XML파일로부터 로딩되는 경우가 많다
 
-![Day6-%E1%84%92%E1%85%A1%E1%86%A8%E1%84%89%E1%85%B3%E1%86%B8%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%85%E1%85%B5%20edf616a1c2e742e885ce859ac30b1299/Untitled.png](Day6-%E1%84%92%E1%85%A1%E1%86%A8%E1%84%89%E1%85%B3%E1%86%B8%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%85%E1%85%B5%20edf616a1c2e742e885ce859ac30b1299/Untitled.png)
+![Untitled](https://user-images.githubusercontent.com/52225690/127037622-3821bbbf-4a31-490f-8e17-9b0fb3eefc0e.png)
 
  ※리소스 종류에 상관없이 모든 안드로이드 리소스는 자바 소스코드안에서 각각의 id를 통해 식별, 참조된다.
 
@@ -24,7 +24,7 @@ ex)문자열 리소스, 레이아웃 리소스, 색상, 치수 ...
 - html요소들의 구조화된 표현
 - 트리구조
 
-![Day6-%E1%84%92%E1%85%A1%E1%86%A8%E1%84%89%E1%85%B3%E1%86%B8%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%85%E1%85%B5%20edf616a1c2e742e885ce859ac30b1299/Untitled%201.png](Day6-%E1%84%92%E1%85%A1%E1%86%A8%E1%84%89%E1%85%B3%E1%86%B8%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%85%E1%85%B5%20edf616a1c2e742e885ce859ac30b1299/Untitled%201.png)
+![Untitled 1](https://user-images.githubusercontent.com/52225690/127037618-f87bd4f9-9e93-40d6-bcfb-3dcd538ac427.png)
 
 - ㅁ항상 유효한 html문서의 인터페이스 → 유효하지 않은 html코드도 교정되어 나온다
 - 변경 가능한 동적 모델
