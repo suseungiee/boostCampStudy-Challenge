@@ -108,7 +108,7 @@ b.func1()하면 "bye"출력된다
 
 ex)println()은 사실 여러 타입의 println() 오버로딩 한 것을 우리가 사용하는거다
 
-![Day7-%E1%84%92%E1%85%A1%E1%86%A8%E1%84%89%E1%85%B3%E1%86%B8%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%85%E1%85%B5%203c7a111105804821a375060a0969582b/Untitled.png](Day7-%E1%84%92%E1%85%A1%E1%86%A8%E1%84%89%E1%85%B3%E1%86%B8%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%85%E1%85%B5%203c7a111105804821a375060a0969582b/Untitled.png)
+![Untitled](https://user-images.githubusercontent.com/52225690/127208081-f9f07fae-cb01-4c08-8e8a-09e481f00d91.png)
 
 ## **5원칙(SOLID) - (OOP 방식 잘 준수하기 위한 원칙)**
 
