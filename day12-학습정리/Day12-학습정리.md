@@ -103,7 +103,7 @@ ex) Dispatchers.Default, Dispatchers.IO, Dispatchers.Unconfined
 
 ### **소프트웨어 아키텍쳐 패턴(디자인 패턴)**
 
-![Day12-%E1%84%92%E1%85%A1%E1%86%A8%E1%84%89%E1%85%B3%E1%86%B8%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%85%E1%85%B5%2077ba724528784a02896c566170974c44/Untitled.png](Day12-%E1%84%92%E1%85%A1%E1%86%A8%E1%84%89%E1%85%B3%E1%86%B8%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%85%E1%85%B5%2077ba724528784a02896c566170974c44/Untitled.png)
+![Untitled](https://user-images.githubusercontent.com/52225690/128066090-7bd520a1-8991-4234-bc03-f4c6d8de3e87.png)
 
 controller는 view(UI), model(데이터)  컨트롤해준다
 
@@ -113,7 +113,8 @@ view는 model이용하여 화면 업데이트(model→view notify / view가 mode
 
 가장 단순 but view, model의 의존성 높아 유지보수 어렵다
 
-![Day12-%E1%84%92%E1%85%A1%E1%86%A8%E1%84%89%E1%85%B3%E1%86%B8%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%85%E1%85%B5%2077ba724528784a02896c566170974c44/Untitled%201.png](Day12-%E1%84%92%E1%85%A1%E1%86%A8%E1%84%89%E1%85%B3%E1%86%B8%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%85%E1%85%B5%2077ba724528784a02896c566170974c44/Untitled%201.png)
+
+![Untitled 1](https://user-images.githubusercontent.com/52225690/128066085-5ee78221-62ea-4e7d-9654-d80c6ec00e08.png)
 
 Presenter는 controller보다 중재자 역할 → 간접적으로 데이터만 전달
 
@@ -121,7 +122,7 @@ MVC보다 UI종속적인 코드 제거된다
 
 view, model간 의존성 문제 해결 but view, presenter의존성 높아짐
 
-![Day12-%E1%84%92%E1%85%A1%E1%86%A8%E1%84%89%E1%85%B3%E1%86%B8%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%85%E1%85%B5%2077ba724528784a02896c566170974c44/Untitled%202.png](Day12-%E1%84%92%E1%85%A1%E1%86%A8%E1%84%89%E1%85%B3%E1%86%B8%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%85%E1%85%B5%2077ba724528784a02896c566170974c44/Untitled%202.png)
+![Untitled 2](https://user-images.githubusercontent.com/52225690/128066089-ecb31fc6-893f-494a-aa10-e60516a54b33.png)
 
 ViewModel은 View의 추상화 계층. 
 
