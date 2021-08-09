@@ -151,7 +151,7 @@ Delete : **DELETE** = 요청에 body 없다 → 주소에 리소스 위치가 �
 4. DOM Tree, Style Rules합쳐서 Render Tree 생성 → 
 5. layout정보로 Render Tree 배치 + painting정보로 Render Tree painting 후 display
 
-![Day16-%E1%84%92%E1%85%A1%E1%86%A8%E1%84%89%E1%85%B3%E1%86%B8%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%85%E1%85%B5%209f8a588407cb48028ad8720641b481c8/Untitled.png](Day16-%E1%84%92%E1%85%A1%E1%86%A8%E1%84%89%E1%85%B3%E1%86%B8%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%85%E1%85%B5%209f8a588407cb48028ad8720641b481c8/Untitled.png)
+![Untitled](https://user-images.githubusercontent.com/52225690/128761501-780af78d-1c20-499f-aacc-9c7b68f1fc57.png)
 
 ### 브라우저(Browser)
 
@@ -167,7 +167,7 @@ Delete : **DELETE** = 요청에 body 없다 → 주소에 리소스 위치가 �
 
 ### **브라우저 구성요소**
 
-![Day16-%E1%84%92%E1%85%A1%E1%86%A8%E1%84%89%E1%85%B3%E1%86%B8%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%85%E1%85%B5%209f8a588407cb48028ad8720641b481c8/Untitled%201.png](Day16-%E1%84%92%E1%85%A1%E1%86%A8%E1%84%89%E1%85%B3%E1%86%B8%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%85%E1%85%B5%209f8a588407cb48028ad8720641b481c8/Untitled%201.png)
+![Untitled 1](https://user-images.githubusercontent.com/52225690/128761493-24d76742-ffef-4123-b6cf-24b584513b50.png)
 
 **User interface** : 검색창, 앞으로 뒤로가기, 새로고침
 
