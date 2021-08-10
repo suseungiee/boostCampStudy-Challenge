@@ -1,6 +1,7 @@
 # Day17-학습정리
 
-![Day17-%E1%84%92%E1%85%A1%E1%86%A8%E1%84%89%E1%85%B3%E1%86%B8%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%85%E1%85%B5%202f974649a91a42d18d18f49d9f747d04/Untitled.png](Day17-%E1%84%92%E1%85%A1%E1%86%A8%E1%84%89%E1%85%B3%E1%86%B8%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%85%E1%85%B5%202f974649a91a42d18d18f49d9f747d04/Untitled.png)
+![Untitled](https://user-images.githubusercontent.com/52225690/128917745-e7747efe-95f7-4541-a332-09f2be0c4b0b.png)
+
 
 안드로이드에서 view는 맨 좌측상단이 0,0으로 원점이다
 
@@ -30,13 +31,15 @@ ex)
 
 (ex 기기별 화면 크기 변화 대응, 언어별 문자크키 변화 대응 - 한글이 영어보다 짧다)
 
-![Day17-%E1%84%92%E1%85%A1%E1%86%A8%E1%84%89%E1%85%B3%E1%86%B8%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%85%E1%85%B5%202f974649a91a42d18d18f49d9f747d04/Untitled%201.png](Day17-%E1%84%92%E1%85%A1%E1%86%A8%E1%84%89%E1%85%B3%E1%86%B8%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%85%E1%85%B5%202f974649a91a42d18d18f49d9f747d04/Untitled%201.png)
+![Untitled 1](https://user-images.githubusercontent.com/52225690/128917733-562d4abd-15fe-4725-8ab1-d67b2188620c.png)
+
 
 다음과같이 layout이라는 top, bottom, left, right값을 기준으로 frame들을 배치시킨다
 
 ### **layout 종류**
 
-![Day17-%E1%84%92%E1%85%A1%E1%86%A8%E1%84%89%E1%85%B3%E1%86%B8%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%85%E1%85%B5%202f974649a91a42d18d18f49d9f747d04/Untitled%202.png](Day17-%E1%84%92%E1%85%A1%E1%86%A8%E1%84%89%E1%85%B3%E1%86%B8%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%85%E1%85%B5%202f974649a91a42d18d18f49d9f747d04/Untitled%202.png)
+![Untitled 2](https://user-images.githubusercontent.com/52225690/128917742-6973b9b1-6ed9-4361-8cd6-404224dbec52.png)
+
 
 **LinearLayout**
 
