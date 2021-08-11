@@ -51,7 +51,7 @@ ER Model(Entity-Relationship)
 - 복잡한 분야에 부적함
 - (재사용, 상속, 다형성)x → 객체지향 모델링에 적용 hard → EER 모델 이용
 
-![Day18-%E1%84%92%E1%85%A1%E1%86%A8%E1%84%89%E1%85%B3%E1%86%B8%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%85%E1%85%B5%20ffbc949f01b24e4ebc887d8e3f736544/Untitled.png](Day18-%E1%84%92%E1%85%A1%E1%86%A8%E1%84%89%E1%85%B3%E1%86%B8%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%85%E1%85%B5%20ffbc949f01b24e4ebc887d8e3f736544/Untitled.png)
+![Untitled](https://user-images.githubusercontent.com/52225690/129091964-31f49c56-ba64-43e3-8af1-10a46018d954.png)
 
 네모는 entity, 동그라미는 attribute, 선은 relation
 
@@ -67,11 +67,11 @@ Schema(스키마)
 
 ER, EER 모델링 차이
 
-![Day18-%E1%84%92%E1%85%A1%E1%86%A8%E1%84%89%E1%85%B3%E1%86%B8%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%85%E1%85%B5%20ffbc949f01b24e4ebc887d8e3f736544/Untitled%201.png](Day18-%E1%84%92%E1%85%A1%E1%86%A8%E1%84%89%E1%85%B3%E1%86%B8%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%85%E1%85%B5%20ffbc949f01b24e4ebc887d8e3f736544/Untitled%201.png)
+![Untitled 1](https://user-images.githubusercontent.com/52225690/129091934-818ccf7e-94be-4445-8bd0-3d3292b40dcd.png)
 
 EER = ER에서 엔티티간 관계 표시해주는거 추가한것
 
-![Day18-%E1%84%92%E1%85%A1%E1%86%A8%E1%84%89%E1%85%B3%E1%86%B8%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%85%E1%85%B5%20ffbc949f01b24e4ebc887d8e3f736544/Untitled%202.png](Day18-%E1%84%92%E1%85%A1%E1%86%A8%E1%84%89%E1%85%B3%E1%86%B8%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%85%E1%85%B5%20ffbc949f01b24e4ebc887d8e3f736544/Untitled%202.png)
+![Untitled 2](https://user-images.githubusercontent.com/52225690/129091943-65029a76-ea31-4da5-aa66-d290fb1f5826.png)
 
 ### **index**
 
@@ -103,7 +103,7 @@ EER = ER에서 엔티티간 관계 표시해주는거 추가한것
 
 연관 데이터 조회 시 인덱스 효과 미미
 
-![Day18-%E1%84%92%E1%85%A1%E1%86%A8%E1%84%89%E1%85%B3%E1%86%B8%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%85%E1%85%B5%20ffbc949f01b24e4ebc887d8e3f736544/Untitled%203.png](Day18-%E1%84%92%E1%85%A1%E1%86%A8%E1%84%89%E1%85%B3%E1%86%B8%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%85%E1%85%B5%20ffbc949f01b24e4ebc887d8e3f736544/Untitled%203.png)
+![Untitled 3](https://user-images.githubusercontent.com/52225690/129091951-50eb0966-8ad5-4b70-99f6-2f4ee50d4b52.png)
 
 ### **B+Tree**
 
@@ -113,9 +113,9 @@ EER = ER에서 엔티티간 관계 표시해주는거 추가한것
 
 리프노드만 인덱스, 데이터를 가지고 나머지(인덱스 노드)는 인덱스만 가짐
 
-![Day18-%E1%84%92%E1%85%A1%E1%86%A8%E1%84%89%E1%85%B3%E1%86%B8%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%85%E1%85%B5%20ffbc949f01b24e4ebc887d8e3f736544/Untitled%204.png](Day18-%E1%84%92%E1%85%A1%E1%86%A8%E1%84%89%E1%85%B3%E1%86%B8%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%85%E1%85%B5%20ffbc949f01b24e4ebc887d8e3f736544/Untitled%204.png)
+![Untitled 4](https://user-images.githubusercontent.com/52225690/129091954-b63a3dad-324d-4bbf-96cc-62828a26a12e.png)
 
-==================================================
+==================================================================================================================
 
 **M-way Search Tree(MST)**
 
@@ -132,11 +132,11 @@ EER = ER에서 엔티티간 관계 표시해주는거 추가한것
     - 모든 리프 노드는 똑같은 레벨이어야 한다.
     - creation process는 bottom-up이라고 생각하면 된다.
 
-    ![Day18-%E1%84%92%E1%85%A1%E1%86%A8%E1%84%89%E1%85%B3%E1%86%B8%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%85%E1%85%B5%20ffbc949f01b24e4ebc887d8e3f736544/Untitled%205.png](Day18-%E1%84%92%E1%85%A1%E1%86%A8%E1%84%89%E1%85%B3%E1%86%B8%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%85%E1%85%B5%20ffbc949f01b24e4ebc887d8e3f736544/Untitled%205.png)
+![Untitled 5](https://user-images.githubusercontent.com/52225690/129091957-2c1ff096-7646-4e2a-9f8e-b4fc3a631414.png)
 
     **B+Tree**
 
-    ![Day18-%E1%84%92%E1%85%A1%E1%86%A8%E1%84%89%E1%85%B3%E1%86%B8%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%85%E1%85%B5%20ffbc949f01b24e4ebc887d8e3f736544/Untitled%206.png](Day18-%E1%84%92%E1%85%A1%E1%86%A8%E1%84%89%E1%85%B3%E1%86%B8%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%85%E1%85%B5%20ffbc949f01b24e4ebc887d8e3f736544/Untitled%206.png)
+![Untitled 6](https://user-images.githubusercontent.com/52225690/129091961-cf864c6e-7f03-4793-81de-33a050373853.png)
 
     [https://velog.io/@seanlion/btree](https://velog.io/@seanlion/btree)
 
