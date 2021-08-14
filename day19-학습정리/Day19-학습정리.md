@@ -8,7 +8,7 @@ proxy서버
 
 Forward 프록시
 
-![Untitled](Day19-%E1%84%92%E1%85%A1%E1%86%A8%E1%84%89%E1%85%B3%E1%86%B8%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%85%E1%85%B5%20ab5ecb1485c44bfc9e501ec10f12e1ab/Untitled.png)
+![Untitled](https://user-images.githubusercontent.com/52225690/129254306-7d0a550d-0ddb-4f41-b449-79f7e82a5d2f.png)
 
 - 인터넷앞, 클라이언트 뒤에 위치
 - 사용자가 웹 브라우저를 이용해 프록시서버 사용설정 해야한다
@@ -17,7 +17,7 @@ Forward 프록시
 
 Reverse 프록시
 
-![Untitled](Day19-%E1%84%92%E1%85%A1%E1%86%A8%E1%84%89%E1%85%B3%E1%86%B8%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%85%E1%85%B5%20ab5ecb1485c44bfc9e501ec10f12e1ab/Untitled%201.png)
+![Untitled 1](https://user-images.githubusercontent.com/52225690/129254298-c3f77dad-da1c-478a-a5e7-9dcaebe01c1b.png)
 
 - 프록시서버를 인터넷 리소스 앞에 위치
 - 보안 위함/ WAS(DB서버와 연결)가 앞에있으면 위험
